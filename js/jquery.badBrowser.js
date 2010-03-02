@@ -20,12 +20,14 @@ function getBadBrowser(c_name)
 	return "";
 }	
 
+
 function setBadBrowser(c_name,value,expiredays)
 {
 	var exdate=new Date();
 	exdate.setDate(exdate.getDate()+expiredays);
 	document.cookie=c_name+ "=" +escape(value) + ((expiredays==null) ? "" : ";expires="+exdate.toGMTString());
 }
+
 
 if(badBrowser() && getBadBrowser('browserWarning') != 'seen' ){
 	$(function(){
