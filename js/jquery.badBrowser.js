@@ -1,5 +1,5 @@
 function badBrowser(){
-	if($.browser.msie && parseInt($.browser.version) <= 6){ return true;}
+	if($.browser.msie && parseInt($.browser.version) <= 7){ return true;}
 	
 	return false;
 }
@@ -31,7 +31,7 @@ function setBadBrowser(c_name,value,expiredays)
 
 if(badBrowser() && getBadBrowser('browserWarning') != 'seen' ){
 	$(function(){
-		$("<div id='browserWarning'>Votre navigateur est obsolète, nous vous recommandons de procéder à une mise à jour de votre navigateur : <a href='http://www.microsoft.com/windows/downloads/ie/getitnow.mspx'>Internet Explorer 8</a>.<br/>Si vous le souhaitez, vous pouvez aussi essayer d’autres navigateurs web populaires comme par exemple : <a href='http://getfirefox.com'>FireFox</a>, <a href='http://www.opera.com/download/'>Opera</a>, <a href='http://www.apple.com/safari/'>Safari</a> ou <a href='http://www.google.fr/chrome'>Chrome</a>.<br/>Si vous utilisez un PC au travail, veuillez contacter votre service informatique. &nbsp;&nbsp;&nbsp;[<a href='#' id='warningClose'>fermer</a>] </div> ")
+		$("<div id='browserWarning'>Votre navigateur est obsolète, nous vous recommandons de procéder à une mise à jour de votre navigateur : <a href='http://www.microsoft.com/windows/downloads/ie/getitnow.mspx'>Internet Explorer</a>.<br/>Si vous le souhaitez, vous pouvez aussi essayer d’autres navigateurs web populaires comme par exemple : <a href='http://getfirefox.com'>FireFox</a>, <a href='http://www.opera.com/download/'>Opera</a>, <a href='http://www.apple.com/safari/'>Safari</a> ou <a href='http://www.google.fr/chrome'>Chrome</a>.<br/>Si vous utilisez un PC au travail, veuillez contacter votre service informatique. &nbsp;&nbsp;&nbsp;[<a href='#' id='warningClose'>fermer</a>] </div> ")
 		/*$("<div id='browserWarning'>You are using an unsupported browser. Please switch to <a href='http://getfirefox.com'>FireFox</a>, <a href='http://www.opera.com/download/'>Opera</a>, <a href='http://www.apple.com/safari/'>Safari</a> or <a href='http://www.microsoft.com/windows/downloads/ie/getitnow.mspx'>Internet Explorer 7</a>. Thanks!&nbsp;&nbsp;&nbsp;[<a href='#' id='warningClose'>close</a>] </div> ")*/
 			.css({
 				backgroundColor: '#fcfdde',
