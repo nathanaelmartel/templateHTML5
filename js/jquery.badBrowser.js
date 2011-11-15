@@ -1,5 +1,6 @@
 function badBrowser(){
 	if($.browser.msie && parseInt($.browser.version) <= 7){ return true;}
+	if($.browser.msie && parseInt($.browser.version) <= 8){ return true;}
 	
 	return false;
 }
