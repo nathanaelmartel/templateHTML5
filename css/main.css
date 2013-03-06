@@ -10,6 +10,43 @@
 .notice a   { color: #514721; }
 .success a  { color: #264409; }
 
+body {
+	
+}
+h1,h2,h3,h4,h5,h6,strong {
+}
+em {
+}
+
+nav ul {
+  margin: 0;
+}
+
+nav li {
+	list-style: none;
+	margin: 0;
+	display: table-cell;
+	padding: 0 1em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* media print 
 http://www.alsacreations.com/astuce/lire/1160-une-feuille-de-styles-de-base-pour-le-media-print.html

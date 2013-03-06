@@ -1,0 +1,11 @@
+
+Template de base pour commencer un projet.
+
+Contient : 
+* YUI 3.5.1 reset
+* YUI 3.5.1 base
+* unsemantic (responsive grid system)
+* jQuery 1.9.1
+* Avertissement pour navigateurs obsolète (ie8 and less)
+* humans.txt
+* .htaccess with expires caches and gzip deflate
