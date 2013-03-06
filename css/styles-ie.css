@@ -1,0 +1,47 @@
+/* ----------------------------- */
+/*  =     Styles IE 6/7          */
+/* ----------------------------- */
+
+div.alert-ie {
+  font-size: 0.9em;
+  color: #000;
+  margin-bottom: 40px;
+  background: #fcf2ab;
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+  text-align: center;
+  padding: 5px 0;
+  font-family: Arial, sans;
+}
+div.alert-ie strong, div.alert-ie a {
+  color: #000;
+}
+div.alert-ie p {
+	margin: 0;
+}
+
+/* inline-block */
+
+figure, #apropos_home aside ul, #apropos_home aside h2, #apropos_home #alsacom, #projet #etapes li, #contact form, #contact aside, #references .sponsor, #references .bloc, ul.pictos li {
+  display: inline;
+  zoom: 1;
+}
+
+/* haslayout */
+
+section, #competences a {
+  zoom: 1;
+}
+
+/* misc  */
+#apropos #presentation {
+  float: none;
+  display: inline;
+  zoom: 1;
+}
+#apropos #team {
+  float: none;
+  display: inline;
+  zoom: 1;
+  margin:-15px 0 0 0;
+}

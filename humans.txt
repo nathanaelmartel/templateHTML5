@@ -1,0 +1,16 @@
+/* TEAM */
+
+	design by Nathanaël Martel
+	Site : http://nathanael.fam-martel.eu/
+  Twitter: @simplementNat
+	Contact: nathanael[at]fam-martel.eu
+	From: France
+
+
+/* SITE */
+	Language: Français
+	Doctype: HTML5
+	Components: HTML5, CSS3
+  Library: YUI 3.5.1 reset, base ; unsemantic ; jQuery 
+	IDE: Eclipse, Zen coding
+	
