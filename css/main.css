@@ -29,7 +29,9 @@ nav li {
 	padding: 1em;
 }
 
-
+#google-map {
+	height: 300px;
+}
 
 
 

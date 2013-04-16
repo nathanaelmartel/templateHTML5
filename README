@@ -9,3 +9,4 @@ Contient :
 * Avertissement pour navigateurs obsolète (ie8 and less)
 * humans.txt
 * .htaccess with expires caches and gzip deflate
+* google map
