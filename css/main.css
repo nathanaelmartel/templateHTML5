@@ -31,10 +31,17 @@ nav li {
 	padding: 1em;
 }
 
-label[for^="toggle"], [type=checkbox] {cursor: pointer}
-label[for^="toggle"] + [type=checkbox] {display: none}
+img {
+	max-width: 100%;
+}
 
-@media (max-width: 1000px) {
+
+/* menu */
+
+label[for^="toggle"], [type=checkbox] {cursor: pointer}
+label[for^="toggle"] + [type=checkbox], #toggle-menu {display: none}
+
+@media (max-width: 767px) {
 	
   [data-icon]:before {
     content: attr(data-icon);
