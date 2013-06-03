@@ -8,7 +8,6 @@ function initialize_map(elem) {
 
   latlng_coord = elem.attr("data-position").split(",");
   latlng_center_coord = elem.attr("data-center").split(","); 
-  console.log(elem.attr("data-zoom"));
 	
   var myOptions = {
     zoom: parseInt(elem.attr("data-zoom")),
